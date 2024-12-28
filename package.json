@@ -2,6 +2,9 @@
   "name": "tgbot-js",
   "version": "1.0.0",
   "private": true,
+  "description": "Telegram Bot Vercel Boilerplate",
+  "main": "src/index.ts",
+  "author": "0xHatsume (https://github.com/0xhatsume)",
   "scripts": {
     "dev": "DEBUG=bot* dotenv -- nodemon -e ts -x ts-node src/index.ts",
     "devWindows": "@powershell -Command $env:DEBUG='bot*';dotenv -- -- nodemon -e ts -x ts-node src/index.ts",
